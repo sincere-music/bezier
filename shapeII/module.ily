@@ -201,7 +201,7 @@ shapeII =
                  (notehead-placement coords spec side))
                 (else (begin
                        (ly:programming-error
-                        (_ "unknown control-point instruction type: ~a\nUsing default coordinates for control-point ~a.")
+                        (G_ "unknown control-point instruction type: ~a\nUsing default coordinates for control-point ~a.")
                         spec
                         (+ which-point 1))
                        coords))))))
